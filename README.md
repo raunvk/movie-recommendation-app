@@ -62,5 +62,5 @@
 1. **Retrieve Movie by ID** -> GET /movie/id/{tmdbId}
 2. **Retrieve All Movies** -> GET /movie/all
 3. **Retrieve Movies by Keyword** -> GET /movie/all/{keyword}
-4. **Create a Review** -> POST /review
+4. **Create a New Review** -> POST /review
 5. **Retrieve Reviews by Movie ID** -> GET /review/id/{tmdbId}
