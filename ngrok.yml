@@ -1,0 +1,12 @@
+# Command to run script
+# ngrok start 
+
+version: 2
+authtoken: 2fMPFn8NxmIr5R9kzILborFG9Qu_3wGAtQYGN9yjoXB4Z5ULt
+tunnels:
+  first:
+    proto: http
+    addr: 8080
+  second:
+    proto: http
+    addr: 3000
