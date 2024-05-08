@@ -1,0 +1,170 @@
+/* Styles for reviews container */
+.reviews-container {
+    padding-top: 200px; /* Add top padding */
+    min-height: auto; /* Automatically adjust height */
+    width: 100%; /* Full width */
+    position: relative; /* Positioning context for absolute children */
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Center align vertically */
+    justify-content: center; /* Center align horizontally */
+    overflow: hidden; /* Hide overflow content */
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1)), var(--bg-image); /* Apply gradient and background image */
+    background-size: cover; /* Scale background image to cover */
+    background-position: center top; /* Position background image */
+}
+
+.container {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space sections apart evenly */
+    max-width: 800px; /* Maximum width of container */
+    padding: 20px; /* Add padding inside container */
+}
+
+.section1 {
+    flex: 1; /* Take up remaining space */
+    padding-right: 20px; /* Right padding for spacing */
+}
+
+.plot-heading {
+    color: gold; /* Gold text color */
+    font-size: 50px; /* Larger font size */
+    margin-bottom: 20px; /* Bottom margin */
+    margin-top: -100px; /* Adjust top margin */
+    margin-left: -20px; /* Adjust left margin */
+}
+
+.plot-text {
+    font-size: 25px; /* Font size */
+    color: white; /* White text color */
+    margin-left: -20px; /* Adjust left margin */
+}
+
+.more-details-heading {
+    color: gold; /* Gold text color */
+    font-size: 50px; /* Larger font size */
+    margin-bottom: 20px; /* Bottom margin */
+    margin-top: 190px; /* Adjust top margin */
+    margin-left: -20px; /* Adjust left margin */
+}
+
+.wikipedia-link {
+    font-size: 25px; /* Font size */
+    color: white; /* White text color */
+    margin-left: -20px; /* Adjust left margin */
+}
+
+.gold {
+    color: gold; /* Gold text color */
+    font-size: 25px; /* Font size */
+}
+
+.white {
+    color: white; /* White text color */
+    font-size: 25px; /* Font size */
+}
+
+.no-underline {
+    text-decoration: none; /* Remove underline */
+}
+
+.wikipedia-icon {
+    font-size: 25px; /* Font size */
+    transition: 0.3s; /* Smooth transition */
+    cursor: pointer; /* Pointer cursor */
+    color: gold; /* Gold color */
+}
+
+.wikipedia-icon:hover {
+    font-size: 30px; /* Enlarge font size on hover */
+    color: white; /* White color on hover */
+}
+
+.section2 {
+    flex: 1; /* Take up remaining space */
+    padding-left: 20px; /* Left padding for spacing */
+}
+
+.review-heading {
+    color: gold; /* Gold text color */
+    font-size: 50px; /* Larger font size */
+    margin-top: -100px; /* Adjust top margin */
+    margin-bottom: -20px; /* Adjust bottom margin */
+    margin-right: -20px; /* Adjust right margin */
+}
+
+.review-form {
+    margin-bottom: 75px; /* Bottom margin */
+    margin-right: -20px; /* Adjust right margin */
+}
+
+.review-form textarea {
+    width: 100%; /* Full width */
+    height: 125px; /* Set height */
+    padding: 10px; /* Padding inside textarea */
+    font-size: 20px; /* Font size */
+    color: #282828; /* Text color */
+    border-radius: 5px; /* Border radius */
+    border: 1px solid gold; /* Border */
+    resize: none; /* Disable resizing */
+    margin-right: -20px; /* Adjust right margin */
+}
+
+.review-form textarea:focus {
+    border-color: gold; /* Change border color on focus */
+}
+
+.review-form button {
+    margin-top: 20px; /* Top margin */
+    height: 50px; /* Set height */
+    width: 150px; /* Set width */
+    padding: 5px; /* Padding */
+    background-color: transparent; /* Transparent background */
+    color: gold; /* Gold text color */
+    border: 1px solid gold; /* Border */
+    border-radius: 15px; /* Border radius */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s, color 0.3s; /* Transition effect */
+    margin-right: -20px; /* Adjust right margin */
+}
+
+.review-form button:hover {
+    background-color: gold; /* Change background color on hover */
+    border: 1px solid gold; /* Adjust border on hover */
+    color: #282828; /* Change text color on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.no-reviews {
+    font-size: 25px; /* Font size */
+    color: white; /* White text color */
+}
+
+.review-divider {
+    margin-right: -20px; /* Adjust right margin */
+    margin-top: -25px; /* Adjust top margin */
+}
+
+.review-item {
+    margin-bottom: 20px; /* Bottom margin */
+    margin-right: -20px; /* Adjust right margin */
+    margin-top: -20px; /* Adjust top margin */
+    color: white; /* White text color */
+}
+
+.review-text {
+    font-size: 20px; /* Font size */
+    margin-bottom: -25px; /* Adjust bottom margin */
+}
+
+@media (max-width: 768px) {
+    .reviews-container {
+        padding: 20px; /* Add padding inside reviews container */
+    }
+    .container {
+        flex-direction: column; /* Stack sections vertically on mobile */
+        align-items: center; /* Center align items horizontally */
+    }
+    .section1, .section2 {
+        padding: 0; /* Remove padding on sections for full width */
+    }
+}
