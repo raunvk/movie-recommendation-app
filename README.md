@@ -1,6 +1,6 @@
 # movie-recommendation-app
 
-**Description** : Web Application to Search Movies, View Trailers and Add Reviews
+**Description** : Web Application to Search Movies Trailers and Add Reviews
 
 **Tech Stack** : Spring Boot, MongoDB, ReactJS, Material UI
 
