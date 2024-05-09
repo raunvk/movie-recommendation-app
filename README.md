@@ -1,6 +1,6 @@
 # movie-recommendation-app
 
-**Description** : Web Application to Search Movies Trailers and Add Reviews
+**Description** : Web Application to Search Movies, Trailers and Add Reviews
 
 **Tech Stack** : Spring Boot, MongoDB, ReactJS, Material UI
 
@@ -19,8 +19,7 @@
 4. Create a new Database, then create a Collection called **movies** (mandatory name) inside the Database
 5. Goto Dataset/ and upload **movie-dataset-small.json** (provides faster response) to the **movies** Collection
 6. A sample MongoDB Connection String looks like -> **mongodb+srv://username:password@cluster**
-7. Goto Backend/src/main/resources/.env.example and rename the file from **.env.example** to just **.env**
-8. Edit the renamed .env file and add your own MongoDB credentials like from Steps 4 & 6
+7. Goto Backend/src/main/resources/.env and edit the .env file to add your own credentials from Steps 4 & 6
 
 **How to Configure Ngrok (optional)** :
 
