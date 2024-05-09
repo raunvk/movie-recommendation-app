@@ -37,18 +37,10 @@
 2. Run Backend by running CinemintApplication.java file
 3. Import Frontend files to an IDE like VSCode
 4. Goto path "Frontend/dashboard/" in VSCode Terminal
-5. Run command [**npm install axios**] to enable Axios
-6. Run command [**npm install bootstrap**] to enable Bootstrap
-7. Run command [**npm i react-bootstrap**] to enable Bootstrap realted Components
-8. Run command [**npm i @fortawesome/react-fontawesome**] to enable React FontAwesome
-9. Run command [**npm i @fortawesome/free-solid-svg-icons**] to enable FontAwesome Icons
-10. Run command [**npm i react-player**] to enable React Player
-11. Run command [**npm i react-router-dom**] to enable React Router
-12. Run command [**npm install @mui/material @emotion/react @emotion/styled**] to enable Material UI Components
-13. Run command [**npm install react-material-ui-carousel**] to enable Material UI Carousel Component
-14. Finally run Frontend by running the command [**npm start**]
-15. Goto http://localhost:3000 on your Browser to access the Application
-16. If using Ngrok, goto Ngrok forwarding URL for http://localhost:3000 on your Browser
+5. Run command [**npm install**] to install all necessary Node Modules
+6. Finally run Frontend by running the command [**npm start**]
+7. Goto http://localhost:3000 on your Browser to access the Application
+8. If using Ngrok, goto Ngrok forwarding URL for http://localhost:3000 on your Browser
 
 **Sample Screenshots** :
 
