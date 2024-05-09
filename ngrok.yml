@@ -2,7 +2,7 @@
 # ngrok start 
 
 version: 2
-authtoken: 2fMPFn8NxmIr5R9kzILborFG9Qu_3wGAtQYGN9yjoXB4Z5ULt
+authtoken: [ENTER_AUTH_TOKEN]
 tunnels:
   first:
     proto: http
