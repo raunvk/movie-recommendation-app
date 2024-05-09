@@ -1,5 +1,5 @@
 # Command to run script
-# ngrok start 
+# ngrok start --config ngrok.yml --all 
 
 version: 2
 authtoken: [ENTER_AUTH_TOKEN]
