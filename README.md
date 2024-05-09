@@ -24,7 +24,7 @@
 **How to Configure Ngrok (optional)** :
 
 1. Watch this video to setup Ngrok -> https://www.youtube.com/watch?v=aFwrNSfthxU&ab_channel=ProgrammingKnowledge
-2. Read about Ngrok multiple ports tunelling -> https://dev.to/ethand91/using-ngrok-to-set-up-multiple-ports-2911
+2. Setup Ngrok multiple ports tunelling -> https://dev.to/ethand91/using-ngrok-to-set-up-multiple-ports-2911
 3. Edit the script ngrok.yml present in the base directory to add your own Auth Token at line no. 5
 4. Run the script ngrok.yaml in CMD, by using the command [**ngrok start --config ngrok.yml --all**]
 5. Copy Ngrok forwarding URL for http://localhost:8080, a sample URL would look like -> https://9ca8-103-102-117-52.ngrok-free.app
