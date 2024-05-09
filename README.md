@@ -24,12 +24,13 @@
 **How to Configure Ngrok (optional)** :
 
 1. Watch this video to setup Ngrok -> https://www.youtube.com/watch?v=aFwrNSfthxU&ab_channel=ProgrammingKnowledge
-2. Run the script ngrok.yaml in CMD, by using the command [**ngrok start --config ngrok.yml --all**]
-3. Read about Ngrok ports tunelling at -> https://dev.to/ethand91/using-ngrok-to-set-up-multiple-ports-2911
-4. Copy Ngrok forwarding URL for http://localhost:8080, a sample URL would look like -> https://9ca8-103-102-117-52.ngrok-free.app
-5. Goto Frontend/cinemint/src/api/axiosConfig.js and paste the copied URL on line no. 4 under **baseURL** 
-6. Uncomment line nos. 2 to 6 and comment line nos. 8 to 10 instead, as we won't be needing the localhost URL
-7. Access the application by visiting Ngrok forwarding URL (public) for http://localhost:3000 on your Browser
+2. Read this article about Ngrok ports tunelling -> https://dev.to/ethand91/using-ngrok-to-set-up-multiple-ports-2911
+3. Edit the script ngrok.yml present in the base directory to add your own Auth Token at line no. 5
+4. Run the script ngrok.yaml in CMD, by using the command [**ngrok start --config ngrok.yml --all**]
+5. Copy Ngrok forwarding URL for http://localhost:8080, a sample URL would look like -> https://9ca8-103-102-117-52.ngrok-free.app
+6. Goto Frontend/cinemint/src/api/axiosConfig.js and paste the copied URL on line no. 4 under **baseURL** 
+7. Uncomment line nos. 2 to 6 and comment line nos. 8 to 10 instead, as we won't be needing the localhost URL
+8. Access the application by visiting Ngrok forwarding URL (public) for http://localhost:3000 on your Browser
 
 **How to Run (Windows)** :
 
