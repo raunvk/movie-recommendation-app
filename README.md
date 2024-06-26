@@ -34,14 +34,13 @@
 
 **How to Run (Windows)** :
 
-1. Import Backend files to an IDE like Eclipse
-2. Run Backend by running CinemintApplication.java file
-3. Import Frontend files to an IDE like VSCode
-4. Goto path "Frontend/dashboard/" in VSCode Terminal
-5. Run command [**npm install**] to install all necessary Node Modules
-6. Finally run Frontend by running the command [**npm start**]
-7. Goto http://localhost:3000 on your Browser to access the Application
-8. If using Ngrok, goto Ngrok forwarding URL for http://localhost:3000 on your Browser
+1. Goto path "Backend/" in Terminal
+2. Run Backend by running the command [**mvn spring-boot:run**]
+3. Goto path "Frontend/cinemint/" in Terminal
+4. Run command [**npm install**] to install all necessary Node Modules
+5. Run Frontend by running the command [**npm start**]
+6. Goto http://localhost:3000 on your Browser to access the Application
+7. If using Ngrok, goto Ngrok forwarding URL for http://localhost:3000 on your Browser
 
 **Sample Screenshots** :
 
